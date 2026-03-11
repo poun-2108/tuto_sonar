@@ -32,6 +32,7 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
           args: >
-            -Dsonar.projectKey=METS_ICI_TON_PROJECT_KEY
-            -Dsonar.organization=METS_ICI_TON_ORGANIZATION_KEY
+            -Dsonar.projectKey=poun-2108_DirtyAuth
+            -Dsonar.organization=poun-2108
             -Dsonar.sources=src
+            -Dsonar.java.binaries=bin
